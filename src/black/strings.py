@@ -147,7 +147,7 @@ def normalize_string_prefix(s: str) -> str:
         orig_prefix.replace("F", "f")
         .replace("B", "b")
         .replace("U", "")
-        .replace("u", "")
+        # .replace("u", "")
     )
 
     # Python syntax guarantees max 2 prefixes and that one of them is "r"
